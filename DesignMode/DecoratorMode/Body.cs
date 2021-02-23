@@ -6,5 +6,7 @@
     public abstract class Body
     {
         public abstract void Print();
+
+        public abstract double Price();
     }
 }

@@ -8,5 +8,10 @@ namespace DecoratorMode
         {
             Console.WriteLine("男人");
         }
+
+        public override double Price()
+        {
+            return 0.5D;
+        }
     }
 }
