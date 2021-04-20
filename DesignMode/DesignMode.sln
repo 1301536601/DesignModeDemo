@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverMode", "ObserverMod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryModel", "AbstractFactoryModel\AbstractFactoryModel.csproj", "{64F52E40-A0B9-4FF7-8FAF-56EB7EC6C9C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusMode", "StatusMode\StatusMode.csproj", "{8856EA2D-D9B6-458B-AE8D-E0060A748434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatusMode", "StatusMode\StatusMode.csproj", "{8856EA2D-D9B6-458B-AE8D-E0060A748434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterMode", "AdapterMode\AdapterMode.csproj", "{150650FA-566E-4988-9E58-198BB773FAEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{8856EA2D-D9B6-458B-AE8D-E0060A748434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8856EA2D-D9B6-458B-AE8D-E0060A748434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8856EA2D-D9B6-458B-AE8D-E0060A748434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150650FA-566E-4988-9E58-198BB773FAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150650FA-566E-4988-9E58-198BB773FAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150650FA-566E-4988-9E58-198BB773FAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150650FA-566E-4988-9E58-198BB773FAEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
