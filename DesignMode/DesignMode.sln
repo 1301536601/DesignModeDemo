@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonMode", "SingletonM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{AE7D99CD-6F58-487A-8692-53A132BCA8F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandMode", "CommandMode\CommandMode.csproj", "{459252A9-C408-48BB-846A-6A5F3E6DF771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandMode", "CommandMode\CommandMode.csproj", "{459252A9-C408-48BB-846A-6A5F3E6DF771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityChain", "ResponsibilityChain\ResponsibilityChain.csproj", "{D3B9E9B4-F023-40C7-82B3-9D2A2B5A538C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{459252A9-C408-48BB-846A-6A5F3E6DF771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459252A9-C408-48BB-846A-6A5F3E6DF771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459252A9-C408-48BB-846A-6A5F3E6DF771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B9E9B4-F023-40C7-82B3-9D2A2B5A538C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B9E9B4-F023-40C7-82B3-9D2A2B5A538C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B9E9B4-F023-40C7-82B3-9D2A2B5A538C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B9E9B4-F023-40C7-82B3-9D2A2B5A538C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
