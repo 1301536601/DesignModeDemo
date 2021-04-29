@@ -22,11 +22,18 @@ namespace MediatorMode
             Console.Read();
         }
 
+        /// <summary>
+        /// 抽象中介者
+        /// </summary>
         public abstract class Mediator
         {
             public abstract void Send(string message, Colleague colleague);
         }
 
+
+        /// <summary>
+        /// 具体中介者
+        /// </summary>
         public abstract class Colleague
         {
             protected Mediator Mediator;
@@ -37,6 +44,9 @@ namespace MediatorMode
             }
         }
 
+        /// <summary>
+        /// 抽象工作类
+        /// </summary>
         public class ConcreteMediator : Mediator
         {
 
@@ -66,6 +76,9 @@ namespace MediatorMode
             }
         }
 
+        /// <summary>
+        /// 具体工作类
+        /// </summary>
         public class ConcreteMediatorOne : Colleague
         {
             public ConcreteMediatorOne(Mediator mediator) : base(mediator)
@@ -84,6 +97,9 @@ namespace MediatorMode
 
         }
 
+        /// <summary>
+        /// 具体工作类
+        /// </summary>
         public class ConcreteMediatorTwo : Colleague
         {
             public ConcreteMediatorTwo(Mediator mediator) : base(mediator)
