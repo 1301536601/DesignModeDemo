@@ -55,7 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponsibilityChain", "Resp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorMode", "MediatorMode\MediatorMode.csproj", "{01E69B1B-5AE3-4FA2-B617-E8C41A10F19D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightMode", "FlyweightMode\FlyweightMode.csproj", "{64A3E00F-904B-4434-ADFF-7D5B99A4670C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightMode", "FlyweightMode\FlyweightMode.csproj", "{64A3E00F-904B-4434-ADFF-7D5B99A4670C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterMode", "InterpreterMode\InterpreterMode.csproj", "{33CC2584-F688-448A-8B79-3007914D4AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorMode", "VisitorMode\VisitorMode.csproj", "{D2B2C019-8334-45F2-9CB4-15E3EC98D740}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{64A3E00F-904B-4434-ADFF-7D5B99A4670C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A3E00F-904B-4434-ADFF-7D5B99A4670C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A3E00F-904B-4434-ADFF-7D5B99A4670C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CC2584-F688-448A-8B79-3007914D4AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CC2584-F688-448A-8B79-3007914D4AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CC2584-F688-448A-8B79-3007914D4AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CC2584-F688-448A-8B79-3007914D4AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B2C019-8334-45F2-9CB4-15E3EC98D740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B2C019-8334-45F2-9CB4-15E3EC98D740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B2C019-8334-45F2-9CB4-15E3EC98D740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B2C019-8334-45F2-9CB4-15E3EC98D740}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
